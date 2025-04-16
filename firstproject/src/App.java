@@ -1,4 +1,3 @@
-import com.humanbooster.exemple.TryCatch;
 import com.humanbooster.exercices.Calculatrice;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -64,7 +63,7 @@ public class App {
         int p = 0;
         String[] a_split = Double.toString(a).split("\\.");
         String[] b_split = Double.toString(b).split("\\.");
-        
+
         // Get the most precise number
         if (a_split.length > 1 && b_split.length == 1) {
             return p = a_split.length;
